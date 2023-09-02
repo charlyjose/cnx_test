@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-express-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .  --ext .js",
+    "lint-fix": "eslint --fix .  --ext .js",
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Charly Jose",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-prometheus-middleware": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.8",
+    "chai-http": "^4.4.0",
+    "eslint": "^8.48.0",
+    "mocha": "^10.2.0"
+  }
+}
